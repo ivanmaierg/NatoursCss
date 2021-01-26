@@ -1,0 +1,26 @@
+{
+  "name": "natourscss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getsuga743/NatoursCss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Getsuga743/NatoursCss/issues"
+  },
+  "homepage": "https://github.com/Getsuga743/NatoursCss#readme",
+  "dependencies": {
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
